@@ -1,0 +1,204 @@
+/* src/components/WeatherApp.css */
+
+.weather-app {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .app-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .app-bar-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .hero-image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .hero-button {
+    background-color: #4CAF50; /* Nature green */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #388E3C; /* Darker green */
+  }
+  
+  .weather-info {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .weather-title {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .weather-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50; /* Nature green */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #388E3C; /* Darker green */
+  }
+  
+  .unit-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8B4513; /* Earthy brown */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .unit-button:hover {
+    background-color: #6F4F28; /* Darker brown */
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 20px;
+  }
+  
+  /* New CSS for JSON display, commodity prices, filters, and table */
+  .json-display {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace;
+    color: #dcdcdc;
+    overflow-x: auto;
+  }
+  
+  .commodity-prices {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .filters select {
+    margin-right: 10px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #333;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
